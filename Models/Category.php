@@ -2,8 +2,8 @@
 
 class Category
 {
-    protected $name;
-    protected $icon = 'assets/img/no-image.png';
+    private $name;
+    private $icon = 'assets/img/no-image.png';
 
     public function set_name($_name)
     {

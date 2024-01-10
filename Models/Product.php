@@ -1,7 +1,9 @@
 <?php
-require_once __DIR__.'\Category.php';
+require_once __DIR__.'/Category.php';
+require_once __DIR__.'/../Traits/Shippable.php';
 class Product
 {
+    use Shippable;
     protected $name;
     protected $price;
     protected $image = "../Assets/img/no-image.png";

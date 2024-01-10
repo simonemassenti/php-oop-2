@@ -8,4 +8,8 @@ class Toy extends Product
     {
         $this->material = $_material;
     }
+
+    public function get_material() {
+        return $this->material;
+    }
 }

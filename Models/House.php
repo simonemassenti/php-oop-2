@@ -8,4 +8,8 @@ class House extends Product
     {
         $this->type = $_type;
     }
+
+    public function get_type() {
+        return $this->type;
+    }
 }

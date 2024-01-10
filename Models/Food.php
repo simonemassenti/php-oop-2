@@ -10,4 +10,8 @@ class Food extends Product
             $this->expiration = $_expiration;
         }
     }
+
+    public function get_expiration(){
+        return $this->expiration;
+    }
 }
